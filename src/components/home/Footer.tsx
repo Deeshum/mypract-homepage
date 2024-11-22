@@ -1,4 +1,4 @@
-import { Facebook, Linkedin, Twitter, Youtube, Mail, Phone, MapPin } from "lucide-react";
+import { Linkedin, Mail, Phone, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -36,17 +36,8 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
             <p className="text-gray-600 text-sm mb-4">Follow us for updates and tips:</p>
             <div className="flex gap-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary">
-                <Facebook className="w-6 h-6" />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary">
+              <a href="https://www.linkedin.com/company/mypract/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary">
                 <Linkedin className="w-6 h-6" />
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary">
-                <Twitter className="w-6 h-6" />
-              </a>
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary">
-                <Youtube className="w-6 h-6" />
               </a>
             </div>
           </div>
