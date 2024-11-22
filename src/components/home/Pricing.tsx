@@ -8,7 +8,7 @@ const Pricing = () => {
   const plans = [
     {
       name: "Starter",
-      price: isAnnual ? 39 : 49,
+      price: isAnnual ? 3199 : 3999,
       features: [
         "Up to 50 clients",
         "Basic document management",
@@ -18,7 +18,7 @@ const Pricing = () => {
     },
     {
       name: "Professional",
-      price: isAnnual ? 79 : 89,
+      price: isAnnual ? 6499 : 7299,
       features: [
         "Unlimited clients",
         "Advanced document management",
@@ -76,7 +76,7 @@ const Pricing = () => {
               <div className="mb-6">
                 {typeof plan.price === "number" ? (
                   <div className="flex items-baseline">
-                    <span className="text-4xl font-bold">${plan.price}</span>
+                    <span className="text-4xl font-bold">₹{plan.price}</span>
                     <span className="text-gray-600 ml-2">/month</span>
                   </div>
                 ) : (
