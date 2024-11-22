@@ -5,19 +5,16 @@ const Footer = () => {
   return (
     <footer className="bg-gray-50 border-t">
       <div className="container mx-auto px-4 py-12">
-        {/* Main Footer Content */}
-        <div className="mb-12">
+        {/* Contact and Social Section */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* About Us Section */}
-          <div className="max-w-xl">
+          <div>
             <h3 className="text-lg font-semibold mb-4">About Us</h3>
             <p className="text-gray-600 text-sm">
               MyPract is an innovative practice management platform designed to empower accountants and tax professionals. From managing client workflows to tracking partnerships and rewards, we simplify your practice, so you can focus on what matters.
             </p>
           </div>
-        </div>
 
-        {/* Contact and Social Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 border-t border-gray-200 pt-8 mb-8">
           {/* Get in Touch */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Get in Touch</h3>
