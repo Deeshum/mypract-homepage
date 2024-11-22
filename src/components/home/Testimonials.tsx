@@ -4,19 +4,19 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "MyPract has transformed how we manage our accounting practice. The efficiency gains are remarkable.",
-    author: "Sarah Johnson",
-    title: "Managing Partner, Johnson & Associates"
+    quote: "MyPract has revolutionized how we manage our CA practice. The automated workflows and client management features have increased our efficiency by 40%.",
+    author: "Rajesh Sharma",
+    title: "Managing Partner, Sharma & Associates, Mumbai"
   },
   {
-    quote: "The client management and document organization features have saved us countless hours.",
-    author: "Michael Chen",
-    title: "Senior Tax Advisor, Chen Tax Services"
+    quote: "The GST compliance tracking and document organization features have made our practice completely paperless. Best investment for any CA firm.",
+    author: "Priya Patel",
+    title: "Senior Partner, Patel Tax Consultants, Bangalore"
   },
   {
-    quote: "Best investment we've made for our practice. The team management features are exceptional.",
-    author: "David Smith",
-    title: "Founder, Smith Accounting Group"
+    quote: "From ITR filing to client communication, MyPract streamlines everything. Our team productivity has improved significantly since we started using it.",
+    author: "Amit Verma",
+    title: "Founder, Verma & Co. Chartered Accountants, Delhi"
   }
 ];
 
