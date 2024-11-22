@@ -35,7 +35,7 @@ const Navbar = () => {
             Contact
           </button>
           <Button variant="outline" asChild>
-            <Link to="/login">Login</Link>
+            <a href="https://mypract.lovable.app/login" target="_blank" rel="noopener noreferrer">Login</a>
           </Button>
           <Button asChild>
             <a href="https://calendly.com/shubham-skandco/mypract-demo-meeting" target="_blank" rel="noopener noreferrer">Book Demo</a>

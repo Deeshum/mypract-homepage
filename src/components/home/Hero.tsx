@@ -18,7 +18,7 @@ const Hero = () => {
               <a href="https://calendly.com/shubham-skandco/mypract-demo-meeting" target="_blank" rel="noopener noreferrer">Book a Demo</a>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link to="/login">Login</Link>
+              <a href="https://mypract.lovable.app/login" target="_blank" rel="noopener noreferrer">Login</a>
             </Button>
           </div>
         </div>
