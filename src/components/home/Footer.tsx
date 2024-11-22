@@ -6,47 +6,13 @@ const Footer = () => {
     <footer className="bg-gray-50 border-t">
       <div className="container mx-auto px-4 py-12">
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="mb-12">
           {/* About Us Section */}
-          <div>
+          <div className="max-w-xl">
             <h3 className="text-lg font-semibold mb-4">About Us</h3>
             <p className="text-gray-600 text-sm">
               MyPract is an innovative practice management platform designed to empower accountants and tax professionals. From managing client workflows to tracking partnerships and rewards, we simplify your practice, so you can focus on what matters.
             </p>
-          </div>
-
-          {/* Features Section */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Features</h3>
-            <ul className="space-y-2">
-              <li><Link to="#workflow" className="text-gray-600 hover:text-primary text-sm">Workflow Management</Link></li>
-              <li><Link to="#collaboration" className="text-gray-600 hover:text-primary text-sm">Client Collaboration</Link></li>
-              <li><Link to="#tracking" className="text-gray-600 hover:text-primary text-sm">Partnership Tracking</Link></li>
-              <li><Link to="#compliance" className="text-gray-600 hover:text-primary text-sm">Compliance & Reporting</Link></li>
-            </ul>
-          </div>
-
-          {/* Quick Links Section */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              <li><Link to="/about" className="text-gray-600 hover:text-primary text-sm">About Us</Link></li>
-              <li><Link to="/features" className="text-gray-600 hover:text-primary text-sm">Features</Link></li>
-              <li><Link to="/pricing" className="text-gray-600 hover:text-primary text-sm">Pricing</Link></li>
-              <li><Link to="/faqs" className="text-gray-600 hover:text-primary text-sm">FAQs</Link></li>
-              <li><Link to="/contact" className="text-gray-600 hover:text-primary text-sm">Contact Us</Link></li>
-            </ul>
-          </div>
-
-          {/* Resources Section */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Resources</h3>
-            <ul className="space-y-2">
-              <li><Link to="/blog" className="text-gray-600 hover:text-primary text-sm">Blog</Link></li>
-              <li><Link to="/case-studies" className="text-gray-600 hover:text-primary text-sm">Case Studies</Link></li>
-              <li><Link to="/guides" className="text-gray-600 hover:text-primary text-sm">User Guides</Link></li>
-              <li><Link to="/webinars" className="text-gray-600 hover:text-primary text-sm">Webinars</Link></li>
-            </ul>
           </div>
         </div>
 
