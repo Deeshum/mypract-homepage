@@ -57,13 +57,13 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Get in Touch</h3>
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-gray-600 text-sm">
-                <Mail className="w-4 h-4" /> support@mypract.com
+                <Mail className="w-4 h-4" /> hello@mypract.com
               </li>
               <li className="flex items-center gap-2 text-gray-600 text-sm">
-                <Phone className="w-4 h-4" /> +1 (800) 123-4567
+                <Phone className="w-4 h-4" /> +91-8939774259
               </li>
-              <li className="flex items-center gap-2 text-gray-600 text-sm">
-                <MapPin className="w-4 h-4" /> 123 Main Street, New York, NY
+              <li className="flex items-start gap-2 text-gray-600 text-sm">
+                <MapPin className="w-4 h-4 mt-1" /> Prestige Atlanta, 80 Feet Rd, Koramangala 1A Block, Koramangala 3 Block, Koramangala, Bengaluru, Karnataka 560034
               </li>
             </ul>
           </div>
