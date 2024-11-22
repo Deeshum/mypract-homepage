@@ -38,7 +38,7 @@ const Navbar = () => {
             <Link to="/login">Login</Link>
           </Button>
           <Button asChild>
-            <Link to="#demo">Book Demo</Link>
+            <a href="https://calendly.com/shubham-skandco/mypract-demo-meeting" target="_blank" rel="noopener noreferrer">Book Demo</a>
           </Button>
         </div>
       </div>

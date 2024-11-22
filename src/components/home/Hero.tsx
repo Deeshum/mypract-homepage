@@ -15,7 +15,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>
-              <Link to="#demo">Book a Demo</Link>
+              <a href="https://calendly.com/shubham-skandco/mypract-demo-meeting" target="_blank" rel="noopener noreferrer">Book a Demo</a>
             </Button>
             <Button size="lg" variant="outline" asChild>
               <Link to="/login">Login</Link>
