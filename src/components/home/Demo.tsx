@@ -38,10 +38,12 @@ const Demo = () => {
           >
             <div className="absolute inset-0 bg-primary/5 group-hover:bg-primary/0 transition-colors duration-300" />
             <iframe
-              src="https://capture.navattic.com/cm3rgw34o001p03l99owbawe2"
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              title="MyPract Demo Video"
               className="absolute top-0 left-0 w-full h-full"
-              allow="fullscreen"
-              data-navattic-demo-id="cm3rgw34o001p03l99owbawe2"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
             />
             <div className="absolute inset-0 flex items-center justify-center group-hover:opacity-0 transition-opacity duration-300">
               <div className="bg-white/90 p-6 rounded-full shadow-lg transform group-hover:scale-110 transition-transform duration-300">
