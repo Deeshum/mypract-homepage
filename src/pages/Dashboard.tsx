@@ -2,6 +2,7 @@
 import { useAuth } from "@/contexts/AuthContext";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import UserProfile from "@/components/UserProfile";
 
 const Dashboard = () => {
   const { user, signOut } = useAuth();
@@ -25,23 +26,31 @@ const Dashboard = () => {
       </header>
 
       <main className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold text-gray-900 mb-6">Dashboard</h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <DashboardCard 
-            title="Clients" 
-            count="0" 
-            link="/clients" 
-          />
-          <DashboardCard 
-            title="Projects" 
-            count="0" 
-            link="/projects" 
-          />
-          <DashboardCard 
-            title="Invoices" 
-            count="0" 
-            link="/invoices" 
-          />
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="lg:col-span-2">
+            <h1 className="text-3xl font-bold text-gray-900 mb-6">Dashboard</h1>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <DashboardCard 
+                title="Clients" 
+                count="0" 
+                link="/clients" 
+              />
+              <DashboardCard 
+                title="Projects" 
+                count="0" 
+                link="/projects" 
+              />
+              <DashboardCard 
+                title="Invoices" 
+                count="0" 
+                link="/invoices" 
+              />
+            </div>
+          </div>
+          
+          <div className="bg-white rounded-lg shadow p-6">
+            <UserProfile />
+          </div>
         </div>
       </main>
     </div>
