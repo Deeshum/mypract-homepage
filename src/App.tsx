@@ -9,6 +9,9 @@ import ProtectedRoute from "@/components/auth/ProtectedRoute";
 import Index from "./pages/Index";
 import Auth from "./pages/Auth";
 import Dashboard from "./pages/Dashboard";
+import Clients from "./pages/Clients";
+import Projects from "./pages/Projects";
+import Invoices from "./pages/Invoices";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
 
@@ -31,6 +34,30 @@ const App = () => (
               element={
                 <ProtectedRoute>
                   <Dashboard />
+                </ProtectedRoute>
+              } 
+            />
+            <Route 
+              path="/clients" 
+              element={
+                <ProtectedRoute>
+                  <Clients />
+                </ProtectedRoute>
+              } 
+            />
+            <Route 
+              path="/projects" 
+              element={
+                <ProtectedRoute>
+                  <Projects />
+                </ProtectedRoute>
+              } 
+            />
+            <Route 
+              path="/invoices" 
+              element={
+                <ProtectedRoute>
+                  <Invoices />
                 </ProtectedRoute>
               } 
             />
