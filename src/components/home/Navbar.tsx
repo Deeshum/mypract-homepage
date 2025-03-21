@@ -1,7 +1,11 @@
+
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { useAuth } from "@/contexts/AuthContext";
 
 const Navbar = () => {
+  const { user } = useAuth();
+  
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -34,12 +38,23 @@ const Navbar = () => {
           >
             Contact
           </button>
-          <Button variant="outline" asChild>
-            <a href="https://mypract.lovable.app/login" target="_blank" rel="noopener noreferrer">Login</a>
-          </Button>
-          <Button asChild>
-            <a href="https://calendly.com/shubham-skandco/mypract-demo-meeting" target="_blank" rel="noopener noreferrer">Book Demo</a>
-          </Button>
+          
+          {user ? (
+            <>
+              <Button variant="outline" asChild>
+                <Link to="/dashboard">Dashboard</Link>
+              </Button>
+            </>
+          ) : (
+            <>
+              <Button variant="outline" asChild>
+                <Link to="/auth">Login</Link>
+              </Button>
+              <Button asChild>
+                <a href="https://calendly.com/shubham-skandco/mypract-demo-meeting" target="_blank" rel="noopener noreferrer">Book Demo</a>
+              </Button>
+            </>
+          )}
         </div>
       </div>
     </nav>
